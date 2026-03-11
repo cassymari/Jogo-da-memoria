@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória 3D</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Jogo da Memória</h1>
+
+    <div class="info">
+        <span>⏱️ Tempo: <strong id="tempo">0</strong>s</span>
+        <select id="nivel">
+            <option value="4">Fácil (4x4)</option>
+            <option value="6">Difícil (6x6)</option>
+        </select>
+        <button onclick="iniciarJogo()">Reiniciar</button>
+    </div>
+
+    <div class="tabuleiro" id="tabuleiro"></div>
+    <p id="mensagem"></p>
+</div>
+
+<script src="./scripts.js"></script>
+</body>
+</html>

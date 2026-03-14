@@ -1,6 +1,7 @@
 🎮 Demonstração
 
-Adicione aqui uma imagem ou GIF do jogo funcionando.
+🔗 Acesse o projeto online
+https://cassymari.github.io/Jogo-da-memoria/
 
 ![Preview do Jogo](assets/jogo-da-memoria.jpeg)
 
